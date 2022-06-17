@@ -8,17 +8,14 @@
   <br />
   <h3>How to use these files ?</h3>
   <h4>
-    Step 1: Create a React project folder using npx create-react-app or building
+    Step 1: Create a React project folder using npx create-react-app or building it from scratch. <br />
     <br />
-    it from scratch. <br />
-    Step 2: Copy the files <code>.eslintrc</code>, <code>.prettierrc</code> &
-    <br />
-    <code>.gitignore</code> to your project root. <br />
+    Step 2: Copy the files <code>.eslintrc</code>, <code>.prettierrc</code> & <code>.gitignore</code> to your project root. <br />
     <br />
     Step 3: Run the following commands one after the other: <br />
     <pre>
 npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node</pre
-    >
+    ><br />
     <pre>npx install-peerdeps --dev eslint-config-airbnb</pre>
   </h4>
   <br />
