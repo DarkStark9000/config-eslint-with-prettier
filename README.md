@@ -12,7 +12,7 @@
     <br />
     Step 2: Copy the files <code>.eslintrc</code>, <code>.prettierrc</code> & <code>.gitignore</code> to your project root. <br />
     <br />
-    Step 3: Run the following commands one after the other: <br />
+    Step 3: Run the following commands one after the other: <br /><br />
     <pre>
 npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node</pre
     ><br />
