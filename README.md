@@ -1,5 +1,5 @@
 <html>
-  <h1>quick --prod</h1>
+  <h1>.prodfiles</h1>
   <h3>What is this ?</h3>
   <h4>
     This repo contains collection of my frequently used files for building
