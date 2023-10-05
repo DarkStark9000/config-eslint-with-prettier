@@ -1,21 +1,37 @@
-# Node files
-node_modules/
-package-lock.json
-
-# Environment Variables
-.env
-.env.local
-.env.*.local
-.env.*.development
-
-# Build directory
-/build
-/dist
-
 # Logs
-logs/
+logs
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+
+# Build directories
+/dist/
+/dist-ssr/
+/build/
+*.local
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+
+# System Files
+.Thumbs.db
+
+# Docker Volumes
+.docker-volumes/
 
 # Runtime data
 pids/
@@ -23,12 +39,9 @@ pids/
 *.seed
 *.pid.lock
 
-# Coverage directory used by tools like nyc
+# Coverage directories
 coverage/
 .nyc_output/
-
-# Dependency directories
-jspm_packages/
 
 # TypeScript v1 declaration files
 typings/
@@ -42,52 +55,74 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
-# Debug log from npm
-npm-debug.log*
-
-# Debug Log from yarn
-yarn-debug.log*
-yarn-error.log*
-
-# IDE files
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.swp
-.DS_Store
-
-# System Files
-.Thumbs.db
-
-# Docker Volumes
-.docker-volumes/
-
-# API Keys and Secrets
-*.pem
-*.key
-
 # Compiled files
 *.out
 *.o
 *.obj
 *.dll
 
-# VS Code settings
-.vscode/
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
 # Storybook
 .storybook-out/
 
 # Temporary files
 *.tmp
-*.swp
 *.bak
 *.swx
-*~.nib
+*~
+.nib
 *.db
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.*.development
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+firebase-functions-config.json
+
+# Supabase
+.supabase/
+supabase-key.json
+
+# Appwrite
+appwrite-config.json
+appwrite-key.json
+
+# Azure
+azure*.json
+*.azure/
+*.publishsettings
+
+# AWS
+.aws/
+*.pem
+*.pk
+aws-config.json
+aws-exports.js
+
+# Netlify
+netlify.toml
+.netlify/
+
+# Vercel
+.vercel/
+vercel.json
+
+# General cloud services
+*.env.production
+*.env.staging
+*.env.test
+*.env.development
+*.yml
+secrets.*
+
+# Generated keys or certificates
+*.key
+*.pem
+*.crt
+*.pfx
+*.jks

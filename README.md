@@ -15,14 +15,14 @@ This repository serves as a starter pack to configure ESLint, Prettier, and othe
 
 ## What Does This Repo Contain?
 
-- `.eslintrc.json`: Contains the ESLint configuration
-- `.prettierrc.json`: Contains the Prettier configuration
-- `.gitignore`: Standard git ignore rules
+-   `.eslintrc.json`: Contains the ESLint configuration
+-   `.prettierrc.json`: Contains the Prettier configuration
+-   `.gitignore`: Standard git ignore rules
 
 ## Prerequisites
 
-- Node.js installed on your system
-- Create-React-App (CRA) or a React project setup
+-   Node.js installed on your system
+-   Create-React-App (CRA) or a React project setup
 
 ## Installation
 
@@ -30,8 +30,13 @@ This repository serves as a starter pack to configure ESLint, Prettier, and othe
 2. Open your terminal and run the following commands:
 
 ```bash
-npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
-npx install-peerdeps --dev eslint-config-airbnb
+npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-react eslint-plugin-jsx-a11y eslint-config-airbnb-base @babel/eslint-parser
+```
+
+- To install Airbnb's ESLint config along with its peer dependencies
+
+```bash
+npx install-peerdeps --dev eslint-config-airbnb-base
 ```
 
 ## Conflict Resolution
