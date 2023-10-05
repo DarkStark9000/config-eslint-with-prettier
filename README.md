@@ -1,31 +1,47 @@
-# Config files for future reuse and avoiding conflict
+# React Config Starter Pack
 
-This repository contains ESLint and Prettier JSON config files to be used in projects made with Create-React-App. The ESLint config uses the base Airbnb style and has some custom rules modifications.
+This repository serves as a starter pack to configure ESLint, Prettier, and other dev tools in a Create-React-App project. By following the provided ESLint and Prettier rules, you can enforce a consistent code style and avoid common errors. These configurations are based on the Airbnb style guide and include custom rule modifications for your ease.
 
-## What does this repo contain?
+## Table of Contents
 
-This repo has:
+- [React Config Starter Pack](#react-config-starter-pack)
+  - [Table of Contents](#table-of-contents)
+  - [What Does This Repo Contain?](#what-does-this-repo-contain)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Conflict Resolution](#conflict-resolution)
+  - [Dependencies](#dependencies)
+  - [Contribution](#contribution)
 
-- `.eslintrc` file
-- `.prettierrc` file
-- `.gitignore` file
+## What Does This Repo Contain?
 
-## How to use these files?
+- `.eslintrc.json`: Contains the ESLint configuration
+- `.prettierrc.json`: Contains the Prettier configuration
+- `.gitignore`: Standard git ignore rules
 
-1. Create a React project folder using `npx create-react-app` or building it from scratch.
-2. Copy the files `.eslintrc`, `.prettierrc`, and `.gitignore` to your project root.
-3. Run the following commands one after the other:
+## Prerequisites
 
-```md
+- Node.js installed on your system
+- Create-React-App (CRA) or a React project setup
+
+## Installation
+
+1. Clone this repository or copy the `.eslintrc.json`, `.prettierrc.json`, and `.gitignore` files into your React project root directory.
+2. Open your terminal and run the following commands:
+
+```bash
 npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
 npx install-peerdeps --dev eslint-config-airbnb
 ```
 
+## Conflict Resolution
 
-## Are there any conflicts?
+The .eslintrc.json and .prettierrc.json files have been tested for compatibility with React and JSX syntax. In case of any issues, please refer to the Contribution section.
 
-The `.eslintrc` and `.prettierrc` files have been configured and tested to write React code using JSX syntax. There have been no reported conflicts.
+## Dependencies
 
-## Are there any dependencies that need to be satisfied?
+These configurations are designed to be compatible with any version of React.
 
-The `.eslintrc` has been configured so that it can be used with any version of React. 
+## Contribution
+
+Feel free to contribute to this repository by creating a pull request or raising an issue for any conflicts or improvements.
